@@ -1,0 +1,42 @@
+{
+  "name": "mcp-7zip-server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server for 7-Zip archive operations with dual-engine architecture",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-7zip-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "7zip",
+    "7z",
+    "archive",
+    "compression",
+    "model-context-protocol",
+    "claude",
+    "cursor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.4"
+  },
+  "optionalDependencies": {
+    "7zip-bin": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
