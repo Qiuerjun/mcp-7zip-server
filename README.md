@@ -1,11 +1,13 @@
 # MCP 7-Zip Server
 
+> ⚠️ **注意：本项目为个人练手项目，目前暂时无法使用，仅供学习参考。**
+
 [![npm version](https://img.shields.io/npm/v/mcp-7zip-server.svg)](https://www.npmjs.com/package/mcp-7zip-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/)
 
-一个基于 Model Context Protocol (MCP) 的 7-Zip 压缩文件操作服务器，采用**双引擎架构**设计。
+一个基于 Model Context Protocol (MCP) 的 7-Zip 压缩文件操作服务器，采用**双引擎架构**设计。本项目为个人学习 MCP 协议开发的练手作品，尚未完成全部功能验证，暂时无法正常使用。
 
 ## ✨ 核心特性
 
